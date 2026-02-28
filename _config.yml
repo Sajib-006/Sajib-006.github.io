@@ -24,11 +24,11 @@ repository  : "Sajib-006/Sajib-006.github.io"
 author:
   avatar    : "profile.png"   # upload your photo as /images/profile.png OR change filename
   name      : "Sajib Acharjee Dip"
-  pronouns  :
+  pronouns  : "He/him"
   bio       : "Ph.D. student in Computer Science at Virginia Tech working at the intersection of machine learning and biology. I build generative models for transcriptomic & perturbation data and LLM-based agentic systems for scientific discovery."
   location  : "Blacksburg, VA, USA"
   employer  : "Virginia Tech"
-  uri       :
+  uri       : 
   email     : ""  # optional: add your public email if you want it visible
 
   # Academic websites
