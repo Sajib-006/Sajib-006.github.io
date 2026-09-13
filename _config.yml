@@ -29,14 +29,14 @@ author:
   location  : "Blacksburg, VA, USA"
   employer  : "Virginia Tech"
   uri       : 
-  email     : ""  # optional: add your public email if you want it visible
+  email     :
 
   # Academic websites
   googlescholar : "https://scholar.google.com/citations?user=W37z4MIAAAAJ"
   orcid         : "https://orcid.org/0009-0007-0959-2638"
   arxiv         :
-  pubmed        : ""          # remove the John Snow placeholder
-  researchgate  :
+  pubmed        :
+  researchgate  : "https://www.researchgate.net/profile/Sajib-Acharjee-Dip-2"
   semantic      :
 
   # Repositories and software development
@@ -45,9 +45,9 @@ author:
   stackoverflow :
 
   # Social media
-  linkedin      : ""          # add if you want (your username)
+  linkedin      : "sajib006"
   twitter       :
-  bluesky       : ""          # don’t keep "bsky.app" unless that’s actually your handle
+  bluesky       :
   youtube       :
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -115,9 +115,14 @@ og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Sajib Acharjee Dip
+  links:
+    - "https://scholar.google.com/citations?user=W37z4MIAAAAJ"
+    - "https://orcid.org/0009-0007-0959-2638"
+    - "https://github.com/Sajib-006"
+    - "https://www.researchgate.net/profile/Sajib-Acharjee-Dip-2"
+    - "https://www.linkedin.com/in/sajib006"
 
 
 # Analytics
