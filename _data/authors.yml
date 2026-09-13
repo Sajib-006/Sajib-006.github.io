@@ -1,18 +1,9 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Sajib Acharjee Dip:
+  name: "Sajib Acharjee Dip"
+  uri: "https://sajib-006.github.io/"
+  bio: "Computer Science Ph.D. student at Virginia Tech working on AI for biology, computational pathology, perturbation modeling, and scientific agents."
+  avatar: "profile.png"
+  github: "Sajib-006"
+  linkedin: "sajib006"
+  googlescholar: "https://scholar.google.com/citations?user=W37z4MIAAAAJ"
+  orcid: "https://orcid.org/0009-0007-0959-2638"

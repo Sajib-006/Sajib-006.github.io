@@ -1,8 +1,5 @@
-Contributions are welcome! 
+# Contributing
 
-Please add issues and make pull requests. There are no stupid questions. All ideas are welcome. This is a volunteer project. Be excellent to each other.
+This repository maintains Sajib Acharjee Dip's academic website. Corrections to publication metadata, broken research links, accessibility problems, and reproducibility links are welcome through a focused issue or pull request.
 
-Bug reports and feature requests to the template  should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-Fork from master and go from there. Remember that this repository is intended to remain a generic, ready-to-fork template that demonstrates the features of academicpages.
-
+Please include an authoritative source such as a DOI record, publisher page, arXiv record, ORCID record, or project repository when proposing bibliographic changes.
