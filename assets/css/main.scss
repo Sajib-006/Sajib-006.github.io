@@ -41,3 +41,37 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Personal academic homepage */
+.home-intro h1 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.page__content > h2 {
+  margin-top: 2rem;
+}
+
+.news-list {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1rem 0 2rem;
+}
+
+.news-list > div {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.news-list strong {
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .news-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}

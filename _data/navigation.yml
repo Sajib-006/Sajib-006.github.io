@@ -11,5 +11,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research Blog"
-    url: /year-archive/
+  - title: "CV"
+    url: /files/CV_Sajib_Fall26_DSL.pdf
+
+  - title: "Work Experience"
+    url: /experience/

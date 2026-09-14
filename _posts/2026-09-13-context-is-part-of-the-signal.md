@@ -33,7 +33,7 @@ Perturb-seq can measure transcriptional responses to CRISPR perturbations at sin
 
 A graph neural network allows information to propagate between biologically related genes. The objective is not simply to reconstruct an observed perturbation, but to generalize to an intervention for which no training response exists.
 
-[Paper](https://doi.org/10.1145/3807503.3820871) · [Code](https://github.com/Sajib-006/PerturbGraph) · [Preprint](https://arxiv.org/abs/2606.24940)
+[Published paper](https://doi.org/10.1145/3807503.3820871) · [Code](https://github.com/Sajib-006/PerturbGraph)
 
 ## A shared lesson
 

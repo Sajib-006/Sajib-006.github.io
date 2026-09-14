@@ -25,11 +25,11 @@ author:
   avatar    : "profile.png"   # upload your photo as /images/profile.png OR change filename
   name      : "Sajib Acharjee Dip"
   pronouns  : "He/him"
-  bio       : "Ph.D. student in Computer Science at Virginia Tech working at the intersection of machine learning and biology. I build generative models for transcriptomic & perturbation data and LLM-based agentic systems for scientific discovery."
+  bio       : "Ph.D. researcher in LLMs, post-training, multimodal learning, and agentic AI."
   location  : "Blacksburg, VA, USA"
   employer  : "Virginia Tech"
   uri       : 
-  email     :
+  email     : "sajibacharjeedip@vt.edu"
 
   # Academic websites
   googlescholar : "https://scholar.google.com/citations?user=W37z4MIAAAAJ"

@@ -8,7 +8,6 @@ date: 2026-06-30
 venue: "17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (ACM BCB 2026)"
 paperurl: "https://doi.org/10.1145/3807503.3820871"
 codeurl: "https://github.com/Sajib-006/PerturbGraph"
-preprinturl: "https://arxiv.org/abs/2606.24940"
 citation_title: "Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors"
 citation_authors:
   - "Sajib Acharjee Dip"
@@ -29,7 +28,6 @@ On the supplied K562 Perturb-seq benchmark, Stable-Shift obtained 0.592 cosine s
 These results support further study of biologically structured latent-response prediction, while the lower gene-space accuracy and sensitivity to sparse graph neighborhoods limit the scope of the present conclusions.
 
 - [Read the ACM paper](https://doi.org/10.1145/3807503.3820871)
-- [Read the arXiv preprint](https://arxiv.org/abs/2606.24940)
 - [Code](https://github.com/Sajib-006/PerturbGraph)
 
 ## Citation

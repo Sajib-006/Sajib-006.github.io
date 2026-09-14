@@ -15,7 +15,8 @@ Source for [sajib-006.github.io](https://sajib-006.github.io/), the academic web
 - [Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings](https://doi.org/10.1145/3807503.3820870), ACM BCB 2026 — [code](https://github.com/Sajib-006/PathContext)
 - [Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors](https://doi.org/10.1145/3807503.3820871), ACM BCB 2026 — [code](https://github.com/Sajib-006/PerturbGraph)
 - [Large language model agents for biological intelligence across genomics, proteomics, spatial biology, and biomedicine](https://doi.org/10.1093/bib/bbag110), *Briefings in Bioinformatics*, 2026
-- [Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning](https://arxiv.org/abs/2606.19808), 2026 — [code](https://github.com/Sajib-006/SEVRA)
+- [CFM-GP: Unified Conditional Flow Matching to Learn Gene Perturbation Across Cell Types](https://doi.org/10.1093/nargab/lqag087), *NAR Genomics and Bioinformatics*, 2026
+- [LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology](https://doi.org/10.18653/v1/2026.acl-long.1942), ACL 2026
 
 ## Site maintenance
 

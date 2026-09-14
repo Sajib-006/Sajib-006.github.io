@@ -7,30 +7,40 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Computer Science at Virginia Tech working at the intersection of machine learning and biology. My research focuses on multimodal learning, computational pathology, single-cell and perturbation modeling, and agentic systems for scientific discovery.
+<div class="home-intro">
+  <h1>Welcome!</h1>
 
-## Featured research
+  <p>I am a Computer Science Ph.D. student at <a href="https://www.vt.edu/">Virginia Tech</a>, advised by Professor <a href="https://people.cs.vt.edu/zhang/">Liqing Zhang</a>. My research spans large language models, post-training and reinforcement learning, multimodal learning, and agentic AI, with applications in biology, medicine, and scientific discovery.</p>
 
-### Context for frozen pathology representations
+  <p>I build verifier-guided learning methods, tool-using agents, foundation-model systems, and scalable Python/PyTorch pipelines. My recent biological AI work studies computational pathology, single-cell perturbation modeling, multi-omics integration, and reliable scientific agents.</p>
+</div>
 
-[Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings](/publication/patch-level-tissue-context/) studies lightweight tissue-context fusion across frozen pathology foundation-model embeddings.
+## Recent news
 
-[Paper](https://doi.org/10.1145/3807503.3820870) · [Code](https://github.com/Sajib-006/PathContext)
+<div class="news-list">
+  <div><strong>Jul 2026</strong><span><a href="https://doi.org/10.18653/v1/2026.acl-long.1942">LLM4Cell</a> was published at ACL 2026.</span></div>
+  <div><strong>Jun 2026</strong><span><a href="https://doi.org/10.1093/nargab/lqag087">CFM-GP</a> was published in <em>NAR Genomics and Bioinformatics</em>.</span></div>
+  <div><strong>Jun 2026</strong><span>Two papers on <a href="https://doi.org/10.1145/3807503.3820870">computational pathology</a> and <a href="https://doi.org/10.1145/3807503.3820871">gene perturbation modeling</a> were published at ACM BCB 2026.</span></div>
+  <div><strong>May-Aug 2026</strong><span>AI Research Intern at Genentech, developing tool-using scientific agents and multimodal ML systems.</span></div>
+  <div><strong>Mar 2026</strong><span>Our review of <a href="https://doi.org/10.1093/bib/bbag110">LLM agents for biological intelligence</a> was published in <em>Briefings in Bioinformatics</em>.</span></div>
+  <div><strong>Jan-Apr 2027</strong><span>Incoming Applied Scientist Intern at Amazon Music.</span></div>
+</div>
 
-### Biological context for unseen gene perturbations
+## Selected published work
 
-[Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors](/publication/stable-shift/) combines low-rank response programs, graph learning, and biological priors to predict responses for genes never perturbed during training.
+- **[CFM-GP: Unified Conditional Flow Matching to Learn Gene Perturbation Across Cell Types](https://doi.org/10.1093/nargab/lqag087)**<br>
+  *NAR Genomics and Bioinformatics*, 2026.
 
-[Paper](https://doi.org/10.1145/3807503.3820871) · [Preprint](https://arxiv.org/abs/2606.24940) · [Code](https://github.com/Sajib-006/PerturbGraph)
+- **[LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology](https://doi.org/10.18653/v1/2026.acl-long.1942)**<br>
+  ACL 2026, Main Conference.
 
-Both papers were published at ACM BCB 2026 and are available under CC BY 4.0. The associated code repositories are MIT licensed.
+- **[Large Language Model Agents for Biological Intelligence Across Genomics, Proteomics, Spatial Biology, and Biomedicine](https://doi.org/10.1093/bib/bbag110)**<br>
+  *Briefings in Bioinformatics*, 2026.
 
-## Other recent work
+- **[Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings](https://doi.org/10.1145/3807503.3820870)**<br>
+  ACM BCB 2026.
 
-- [Large language model agents for biological intelligence across genomics, proteomics, spatial biology, and biomedicine](https://doi.org/10.1093/bib/bbag110), *Briefings in Bioinformatics*, 2026
-- [Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning](https://arxiv.org/abs/2606.19808) — [SEVRA code](https://github.com/Sajib-006/SEVRA)
-- [BenSyc: Benchmarking Conversational Sycophancy and Human Alignment in LLMs for Bengali Contexts](https://arxiv.org/abs/2606.10061)
-- [Equitable Skin Disease Prediction Using Transfer Learning and Domain Adaptation](https://arxiv.org/abs/2409.00873)
-- [PathoLM: Identifying Pathogenicity from the DNA Sequence Through the Genome Foundation Model](https://arxiv.org/abs/2406.13133)
+- **[Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors](https://doi.org/10.1145/3807503.3820871)**<br>
+  ACM BCB 2026.
 
-For the complete and current publication record, see [Google Scholar](https://scholar.google.com/citations?user=W37z4MIAAAAJ), [DBLP](https://dblp.org/pid/372/5329.html), and [ORCID](https://orcid.org/0009-0007-0959-2638).
+See the complete curated list on the [Publications](/publications/) page.
