@@ -23,7 +23,6 @@ redirect_from:
   <div><strong>Jun 2026</strong><span>Two papers on <a href="https://doi.org/10.1145/3807503.3820870">computational pathology</a> and <a href="https://doi.org/10.1145/3807503.3820871">gene perturbation modeling</a> were published at ACM BCB 2026.</span></div>
   <div><strong>May-Aug 2026</strong><span>AI Research Intern at Genentech, developing tool-using scientific agents and multimodal ML systems.</span></div>
   <div><strong>Mar 2026</strong><span>Our review of <a href="https://doi.org/10.1093/bib/bbag110">LLM agents for biological intelligence</a> was published in <em>Briefings in Bioinformatics</em>.</span></div>
-  <div><strong>Jan-Apr 2027</strong><span>Incoming Applied Scientist Intern at Amazon Music.</span></div>
 </div>
 
 ## Selected published work
@@ -42,5 +41,8 @@ redirect_from:
 
 - **[Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors](https://doi.org/10.1145/3807503.3820871)**<br>
   ACM BCB 2026.
+
+- **[PathoLM: Identifying Pathogenicity from the DNA Sequence Through the Genome Foundation Model](https://openreview.net/forum?id=f2b7Bozk3O)**<br>
+  ICML 2024 Workshop on AI for Science.
 
 See the complete curated list on the [Publications](/publications/) page.

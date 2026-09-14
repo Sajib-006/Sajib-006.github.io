@@ -5,12 +5,6 @@ permalink: /experience/
 author_profile: true
 ---
 
-## Amazon Music
-
-**Incoming Applied Scientist Intern** · January-April 2027
-
-Selected for an applied-science internship focused on reinforcement learning, supervised learning, ranking, sequential modeling, and large-scale recommendation systems.
-
 ## Genentech
 
 **AI Research Intern** · May-August 2026
@@ -27,13 +21,13 @@ Research in LLM reasoning, post-training, reinforcement learning, multimodal fou
 
 **Summer Research Intern** · May-August 2025
 
-Developed reproducible machine-learning pipelines for genomic, clinical, and biomarker datasets, including statistical modeling, feature engineering, and downstream scientific analysis.
+Developed reproducible machine-learning pipelines for large-scale genomic, clinical, and biomarker datasets. Built Python workflows for data processing, statistical modeling, feature engineering, and downstream scientific analysis in collaboration with scientific teams.
 
 ## IQVIA
 
 **Machine Learning Engineer** · May 2022-July 2023
 
-Designed production-oriented machine-learning and data-processing workflows for large-scale healthcare datasets using Python, SQL, and AWS.
+Designed and implemented production-oriented machine-learning solutions for large-scale real-world healthcare datasets. Built automated Python, SQL, and AWS data pipelines, predictive models, forecasting workflows, and reusable statistical-learning systems with engineering and domain teams.
 
 ## Carnegie Mellon University - Xu Lab
 
@@ -46,5 +40,3 @@ Developed representation-learning methods and scalable PyTorch pipelines for lar
 **Research Intern** · May 2022-January 2023
 
 Developed deep and semi-supervised representation-learning methods for high-dimensional biomedical and visual data.
-
-[Download complete CV](/files/CV_Sajib_Fall26_DSL.pdf)
