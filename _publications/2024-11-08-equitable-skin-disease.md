@@ -16,9 +16,19 @@ citation_authors:
   - "Na Meng"
 citation_date: "2024/11/08"
 citation_conference: "Proceedings of the AAAI Symposium Series"
-citation: "Dip, Sajib Acharjee, et al. (2024). &quot;Equitable Skin Disease Prediction Using Transfer Learning and Domain Adaptation.&quot; <i>Proceedings of the AAAI Symposium Series</i> 4(1): 259-266."
+authors: "Sajib Acharjee Dip, Kazi Hasan Ibn Arif, Uddip Acharjee Shuvo, Ishtiaque Ahmed Khan, Na Meng"
+venue_short: "AAAI Symposium 2024"
+bibtex: |
+  @article{dip2024equitable,
+    title   = {Equitable Skin Disease Prediction Using Transfer Learning and Domain Adaptation},
+    author  = {Dip, Sajib Acharjee and Ibn Arif, Kazi Hasan and Shuvo, Uddip Acharjee and Khan, Ishtiaque Ahmed and Meng, Na},
+    journal = {Proceedings of the AAAI Symposium Series},
+    volume  = {4},
+    number  = {1},
+    pages   = {259--266},
+    year    = {2024},
+    doi     = {10.1609/aaaiss.v4i1.31800}
+  }
 ---
 
 This work evaluates transfer learning and domain adaptation for skin-disease prediction across diverse skin tones, using the Diverse Dermatology Images benchmark and additional dermatology datasets.
-
-- [Read the published proceedings article](https://ojs.aaai.org/index.php/AAAI-SS/article/view/31800)

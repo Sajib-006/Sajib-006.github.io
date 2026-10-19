@@ -1,0 +1,19 @@
+{% assign me = "Sajib Acharjee Dip" %}
+{% assign me_bold = "<strong>Sajib Acharjee Dip</strong>" %}
+<div class="pub">
+  {% unless include.no_title %}<div class="pub__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>{% endunless %}
+  {% if post.authors %}<div class="pub__authors">{{ post.authors | replace: me, me_bold }}</div>{% endif %}
+  <div class="pub__row">
+    {% if post.venue_short %}<span class="pub__venue">{{ post.venue_short }}</span>{% endif %}
+    {% if post.paperurl %}<a class="pub__btn" href="{{ post.paperurl }}">Paper</a>{% endif %}
+    {% if post.codeurl %}<a class="pub__btn" href="{{ post.codeurl }}">Code</a>{% endif %}
+    {% if post.slidesurl %}<a class="pub__btn" href="{{ post.slidesurl }}">Slides</a>{% endif %}
+    {% if post.bibtex %}<button type="button" class="pub__btn pub__bibbtn">BibTeX</button>{% endif %}
+  </div>
+  {% if post.bibtex %}
+  <div class="pub__bib" hidden>
+    <button type="button" class="pub__copy">Copy</button>
+    <pre>{{ post.bibtex | strip | escape }}</pre>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,19 @@
+<script>
+document.addEventListener("click", function (e) {
+  var b = e.target.closest(".pub__bibbtn");
+  if (b) {
+    var box = b.closest(".pub").querySelector(".pub__bib");
+    box.hidden = !box.hidden;
+    b.classList.toggle("is-open", !box.hidden);
+    return;
+  }
+  var c = e.target.closest(".pub__copy");
+  if (c) {
+    var text = c.parentNode.querySelector("pre").textContent;
+    navigator.clipboard.writeText(text).then(function () {
+      c.textContent = "Copied";
+      setTimeout(function () { c.textContent = "Copy"; }, 1500);
+    });
+  }
+});
+</script>

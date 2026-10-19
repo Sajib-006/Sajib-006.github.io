@@ -6,37 +6,25 @@ author_profile: true
 ---
 
 ## Genentech
-
-**AI Research Intern** · May-August 2026
-
-Developed tool-using and retrieval-enabled scientific agents, reusable MCP integrations, and multimodal machine-learning pipelines connecting pathology images, molecular data, and structured biological evidence.
+**AI Research Intern** · May-August 2026<br>
+Multi-agent LLM systems for reliable biotech research workflows.
 
 ## Virginia Tech
-
-**Research Assistant** · May 2024-present
-
-Research in LLM reasoning, post-training, reinforcement learning, multimodal foundation models, and agentic AI. Build scalable training, inference, retrieval, and evaluation systems using Python, PyTorch, Linux, and HPC infrastructure.
+**Research Assistant** · May 2024-present<br>
+LLM reasoning, post-training, multimodal models, and AI agents for biology.
 
 ## Labcorp
-
-**Summer Research Intern** · May-August 2025
-
-Developed reproducible machine-learning pipelines for large-scale genomic, clinical, and biomarker datasets. Built Python workflows for data processing, statistical modeling, feature engineering, and downstream scientific analysis in collaboration with scientific teams.
+**Summer Research Intern** · May-August 2025<br>
+Machine-learning pipelines for genomic and clinical data.
 
 ## IQVIA
+**Machine Learning Engineer** · May 2022-July 2023<br>
+Predictive models and data pipelines for large healthcare datasets.
 
-**Machine Learning Engineer** · May 2022-July 2023
-
-Designed and implemented production-oriented machine-learning solutions for large-scale real-world healthcare datasets. Built automated Python, SQL, and AWS data pipelines, predictive models, forecasting workflows, and reusable statistical-learning systems with engineering and domain teams.
-
-## Carnegie Mellon University - Xu Lab
-
-**Research Intern** · April 2021-July 2023
-
-Developed representation-learning methods and scalable PyTorch pipelines for large 2D and 3D imaging datasets, including detection, segmentation, and structured prediction.
+## Carnegie Mellon University (Xu Lab)
+**Research Intern** · April 2021-July 2023<br>
+Deep learning for large 2D and 3D imaging data.
 
 ## Harvard University
-
-**Research Intern** · May 2022-January 2023
-
-Developed deep and semi-supervised representation-learning methods for high-dimensional biomedical and visual data.
+**Research Intern** · May 2022-January 2023<br>
+Semi-supervised learning for biomedical and visual data.

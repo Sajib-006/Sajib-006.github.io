@@ -75,3 +75,19 @@
     gap: 0.15rem;
   }
 }
+
+/* Publication cards */
+.pub__scholar { font-size: 0.9em; color: #6b6b6b; }
+.pub__section { margin-top: 1.8rem; padding-bottom: 0.3rem; border-bottom: 1px solid #e5e5e5; }
+.pub { padding: 0.9rem 0; border-bottom: 1px solid #f0f0f0; }
+.pub__title { font-weight: 600; line-height: 1.35; }
+.pub__title a { text-decoration: none; }
+.pub__title a:hover { text-decoration: underline; }
+.pub__authors { font-size: 0.85em; color: #555; margin-top: 0.25rem; }
+.pub__row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-top: 0.5rem; }
+.pub__venue { font-size: 0.75em; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 4px; background: #e8f0fe; color: #1a4fa0; }
+.pub__btn { font-size: 0.75em; font-family: inherit; line-height: 1.4; padding: 0.12rem 0.6rem; border: 1px solid #c9c9c9; border-radius: 4px; background: #fff; color: #333 !important; text-decoration: none !important; cursor: pointer; }
+.pub__btn:hover, .pub__btn.is-open { background: #333; border-color: #333; color: #fff !important; }
+.pub__bib { position: relative; margin-top: 0.6rem; }
+.pub__bib pre { font-size: 0.72em; line-height: 1.45; background: #f6f8fa; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8rem; margin: 0; overflow-x: auto; white-space: pre; }
+.pub__copy { position: absolute; top: 0.4rem; right: 0.4rem; font-size: 0.7em; padding: 0.1rem 0.5rem; border: 1px solid #c9c9c9; border-radius: 4px; background: #fff; cursor: pointer; }
