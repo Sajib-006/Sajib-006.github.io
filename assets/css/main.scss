@@ -111,9 +111,14 @@
   .xp__dates { text-align: left; padding-left: 1.2rem; }
 }
 
-/* Membership cards */
-.mem { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 0.8rem; margin: 1rem 0 2rem; }
-.mem__card { padding: 0.9rem 1rem; border: 1px solid rgba(128,128,128,0.3); border-top: 3px solid #2563eb; border-radius: 8px; background: rgba(128,128,128,0.06); }
-.mem__short { font-size: 1.3em; font-weight: 800; letter-spacing: 0.02em; }
-.mem__name { font-size: 0.8em; line-height: 1.35; margin-top: 0.2rem; }
-.mem__meta { font-size: 0.75em; opacity: 0.7; margin-top: 0.5rem; }
+/* Membership list */
+.mem { margin: 1rem 0 2rem; border-top: 1px solid rgba(128,128,128,0.3); }
+.mem__row { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr) auto; gap: 1rem; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid rgba(128,128,128,0.3); }
+.mem__short { justify-self: start; font-size: 0.75em; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 4px; background: rgba(37,99,235,0.15); border: 1px solid rgba(37,99,235,0.45); }
+.mem__name { font-weight: 600; font-size: 0.95em; }
+.mem__role { display: block; font-weight: 400; font-size: 0.8em; opacity: 0.7; margin-top: 0.1rem; }
+.mem__since { font-size: 0.8em; opacity: 0.75; white-space: nowrap; }
+@media (max-width: 600px) {
+  .mem__row { grid-template-columns: 4rem minmax(0, 1fr); }
+  .mem__since { grid-column: 2; }
+}

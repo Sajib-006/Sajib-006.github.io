@@ -1,9 +1,9 @@
 <div class="mem">
 {% for m in site.data.memberships %}
-  <div class="mem__card">
-    <div class="mem__short">{{ m.short }}</div>
-    <div class="mem__name">{{ m.name }}</div>
-    <div class="mem__meta">{{ m.role }}{% if m.since != "" %} · since {{ m.since }}{% endif %}</div>
+  <div class="mem__row">
+    <span class="mem__short">{{ m.short }}</span>
+    <span class="mem__name">{{ m.name }}<span class="mem__role">{{ m.role }}</span></span>
+    <span class="mem__since">{% if m.since != "" %}{{ m.since }}-present{% else %}Present{% endif %}</span>
   </div>
 {% endfor %}
 </div>
