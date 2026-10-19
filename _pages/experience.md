@@ -5,4 +5,4 @@ permalink: /experience/
 author_profile: true
 ---
 
-{% capture c %}{% include experience-list.md %}{% endcapture %}{{ c | markdownify }}
+<div markdown="0">{% include experience-list.html %}</div>

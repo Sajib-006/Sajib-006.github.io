@@ -36,10 +36,10 @@ redirect_from:
 
 ## Work Experience
 
-{% capture exp %}{% include experience-list.md %}{% endcapture %}{{ exp | markdownify }}
+<div markdown="0">{% include experience-list.html %}</div>
 
 ## Professional Memberships
 
-{% capture mem %}{% include memberships-list.md %}{% endcapture %}{{ mem | markdownify }}
+<div markdown="0">{% include memberships-list.html %}</div>
 
 <p class="pub__scholar"><strong>Funding:</strong> My research is supported by NSF Awards 2125798, 2344169, 2319522 and 2004751, and NIH Grant 1R01AI179686.</p>

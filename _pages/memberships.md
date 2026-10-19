@@ -5,4 +5,4 @@ permalink: /memberships/
 author_profile: true
 ---
 
-{% capture c %}{% include memberships-list.md %}{% endcapture %}{{ c | markdownify }}
+<div markdown="0">{% include memberships-list.html %}</div>

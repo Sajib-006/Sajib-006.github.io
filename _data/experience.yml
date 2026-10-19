@@ -1,0 +1,30 @@
+- org: Genentech
+  role: AI Research Intern
+  dates: May-Aug 2026
+  type: Industry
+  note: Multi-agent LLM systems for reliable biotech research workflows.
+- org: Virginia Tech
+  role: Graduate Research Assistant
+  dates: May 2024-present
+  type: Research
+  note: LLM reasoning, post-training, multimodal models, and AI agents for biology.
+- org: Labcorp
+  role: Summer Research Intern
+  dates: May-Aug 2025
+  type: Industry
+  note: Machine-learning pipelines for genomic and clinical data.
+- org: IQVIA
+  role: Machine Learning Engineer
+  dates: May 2022-Jul 2023
+  type: Industry
+  note: Predictive models and data pipelines for large healthcare datasets.
+- org: Harvard University
+  role: Research Intern
+  dates: May 2022-Jan 2023
+  type: Research
+  note: Semi-supervised learning for biomedical and visual data.
+- org: Carnegie Mellon University (Xu Lab)
+  role: Research Intern
+  dates: Apr 2021-Jul 2023
+  type: Research
+  note: Deep learning for large 2D and 3D imaging data.
