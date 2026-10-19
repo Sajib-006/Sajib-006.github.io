@@ -1,0 +1,4 @@
+- **Association for Computational Linguistics (ACL)**, Student Member
+- **Association for Computing Machinery (ACM)**, Student Member · March 2026-present
+- **Institute of Electrical and Electronics Engineers (IEEE)**, Student Member · April 2026-present
+- **IEEE Engineering in Medicine and Biology Society (EMBS)**, Student Member · May 2026-present

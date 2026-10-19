@@ -22,31 +22,22 @@ redirect_from:
   <div><strong>Jun 2026</strong><span><a href="https://doi.org/10.1093/nargab/lqag087">CFM-GP</a> was published in <em>NAR Genomics and Bioinformatics</em>.</span></div>
   <div><strong>Jun 2026</strong><span>Two papers on <a href="https://doi.org/10.1145/3807503.3820870">computational pathology</a> and <a href="https://doi.org/10.1145/3807503.3820871">gene perturbation modeling</a> were published at ACM BCB 2026.</span></div>
   <div><strong>May 2026</strong><span>Our community perspective on <a href="https://doi.org/10.1093/jxb/erag218">cross-species plant single-cell analysis</a> was published in <em>Journal of Experimental Botany</em>.</span></div>
-  <div><strong>May-Aug 2026</strong><span>AI Research Intern at Genentech, developing tool-using scientific agents and multimodal ML systems.</span></div>
+  <div><strong>May-Aug 2026</strong><span>AI Research Intern at Genentech, building reliable multi-agent LLM systems for biotech research workflows.</span></div>
   <div><strong>Mar 2026</strong><span>Our review of <a href="https://doi.org/10.1093/bib/bbag110">LLM agents for biological intelligence</a> was published in <em>Briefings in Bioinformatics</em>.</span></div>
 </div>
 
-## Selected published work
+## Publications
 
-- **[CFM-GP: Unified Conditional Flow Matching to Learn Gene Perturbation Across Cell Types](https://doi.org/10.1093/nargab/lqag087)**<br>
-  *NAR Genomics and Bioinformatics*, 2026.
+<div markdown="0">
+{% include base_path %}
+{% include pub-list.html %}
+{% include pub-script.html %}
+</div>
 
-- **[LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology](https://doi.org/10.18653/v1/2026.acl-long.1942)**<br>
-  ACL 2026, Main Conference.
+## Work Experience
 
-- **[Large Language Model Agents for Biological Intelligence Across Genomics, Proteomics, Spatial Biology, and Biomedicine](https://doi.org/10.1093/bib/bbag110)**<br>
-  *Briefings in Bioinformatics*, 2026.
+{% capture exp %}{% include experience-list.md %}{% endcapture %}{{ exp | markdownify }}
 
-- **[Cross-species plant single-cell analysis: community challenges and shared solutions](https://doi.org/10.1093/jxb/erag218)**<br>
-  *Journal of Experimental Botany*, 2026.
+## Professional Memberships
 
-- **[Patch-Level Tissue Context Improves Learning from Frozen Pathology Foundation Model Embeddings](https://doi.org/10.1145/3807503.3820870)**<br>
-  ACM BCB 2026.
-
-- **[Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors](https://doi.org/10.1145/3807503.3820871)**<br>
-  ACM BCB 2026.
-
-- **[PathoLM: Identifying Pathogenicity from the DNA Sequence Through the Genome Foundation Model](https://proceedings.mlr.press/v261/dip24a.html)**<br>
-  19th Machine Learning in Computational Biology Meeting (MLCB 2024).
-
-See the complete curated list on the [Publications](/publications/) page.
+{% capture mem %}{% include memberships-list.md %}{% endcapture %}{{ mem | markdownify }}

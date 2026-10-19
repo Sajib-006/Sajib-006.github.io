@@ -11,14 +11,6 @@ author_profile: true
 <p class="pub__scholar">Full list on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-{% for category in site.publication_category %}
-  {% assign items = site.publications | where: "category", category[0] | sort: "date" | reverse %}
-  {% if items.size > 0 %}
-  <h2 class="pub__section">{{ category[1].title }}</h2>
-  {% for post in items %}
-    {% include pub-card.html %}
-  {% endfor %}
-  {% endif %}
-{% endfor %}
+{% include pub-list.html %}
 
 {% include pub-script.html %}
