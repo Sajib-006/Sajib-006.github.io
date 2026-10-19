@@ -2,7 +2,7 @@
 {% assign me_bold = "<strong>Sajib Acharjee Dip</strong>" %}
 <div class="pub">
   {% unless include.no_title %}<div class="pub__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>{% endunless %}
-  {% if post.authors %}<div class="pub__authors">{{ post.authors | replace: me, me_bold }}</div>{% endif %}
+  {% if post.authors %}<div class="pub__authors">{{ post.authors | replace: me, me_bold }}{% if post.author_note %} <span class="pub__note">({{ post.author_note }})</span>{% endif %}</div>{% endif %}
   <div class="pub__row">
     {% if post.venue_short %}<span class="pub__venue">{{ post.venue_short }}</span>{% endif %}
     {% if post.paperurl %}<a class="pub__btn" href="{{ post.paperurl }}">Paper</a>{% endif %}

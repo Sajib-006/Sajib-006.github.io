@@ -85,6 +85,7 @@
 .pub__title a:hover { text-decoration: underline; }
 .pub__authors { font-size: 0.85em; opacity: 0.8; margin-top: 0.25rem; }
 .pub__row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin-top: 0.5rem; }
+.pub__note { font-size: 0.9em; font-style: italic; }
 .pub__venue { font-size: 0.75em; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 4px; background: rgba(37,99,235,0.15); color: inherit; border: 1px solid rgba(37,99,235,0.45); }
 .pub__btn { font-size: 0.75em; font-family: inherit; line-height: 1.4; padding: 0.12rem 0.6rem; border: 1px solid rgba(128,128,128,0.55); border-radius: 4px; background: transparent; color: inherit !important; text-decoration: none !important; cursor: pointer; }
 .pub__btn:hover, .pub__btn.is-open { background: rgba(128,128,128,0.25); }
