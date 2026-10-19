@@ -42,6 +42,4 @@ redirect_from:
 
 {% capture mem %}{% include memberships-list.md %}{% endcapture %}{{ mem | markdownify }}
 
-## Funding
-
-My research is supported by the U.S. National Science Foundation and the National Institutes of Health.
+<p class="pub__scholar"><strong>Funding:</strong> My research is supported by NSF Awards 2125798, 2344169, 2319522 and 2004751, and NIH Grant 1R01AI179686.</p>
