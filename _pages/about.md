@@ -41,3 +41,7 @@ redirect_from:
 ## Professional Memberships
 
 {% capture mem %}{% include memberships-list.md %}{% endcapture %}{{ mem | markdownify }}
+
+## Funding
+
+My research is supported by the U.S. National Science Foundation and the National Institutes of Health.
