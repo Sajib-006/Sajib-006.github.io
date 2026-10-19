@@ -13,6 +13,9 @@ redirect_from:
   <p>I am a Computer Science Ph.D. student at <a href="https://www.vt.edu/">Virginia Tech</a>, advised by Professor <a href="https://people.cs.vt.edu/zhang/">Liqing Zhang</a>. My research spans large language models, post-training and reinforcement learning, multimodal learning, and agentic AI, with applications in biology, medicine, and scientific discovery.</p>
 
   <p>I build verifier-guided learning methods, tool-using agents, foundation-model systems, and scalable Python/PyTorch pipelines. My recent biological AI work studies computational pathology, single-cell perturbation modeling, multi-omics integration, and reliable scientific agents.</p>
+  <div class="tags">
+    <span>LLM reasoning &amp; post-training</span><span>AI agents</span><span>Multimodal learning</span><span>Computational biology</span><span>Single-cell &amp; spatial omics</span><span>AI for medicine</span>
+  </div>
 </div>
 
 ## Recent news
@@ -25,6 +28,10 @@ redirect_from:
   <div><strong>May-Aug 2026</strong><span>AI Research Intern at Genentech, building reliable multi-agent LLM systems for biotech research workflows.</span></div>
   <div><strong>Mar 2026</strong><span>Our review of <a href="https://doi.org/10.1093/bib/bbag110">LLM agents for biological intelligence</a> was published in <em>Briefings in Bioinformatics</em>.</span></div>
 </div>
+
+## Education
+
+<div markdown="0">{% include education-list.html %}</div>
 
 ## Publications
 

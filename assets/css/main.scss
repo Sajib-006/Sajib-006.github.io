@@ -117,3 +117,7 @@
   .mem__row { grid-template-columns: 4rem minmax(0, 1fr); }
   .mem__since { grid-column: 2; }
 }
+
+/* Research interest tags */
+.tags { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.9rem 0 0.5rem; }
+.tags span { font-size: 0.78em; font-weight: 600; padding: 0.2rem 0.7rem; border-radius: 999px; background: rgba(37,99,235,0.12); border: 1px solid rgba(37,99,235,0.4); }

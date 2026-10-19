@@ -1,0 +1,12 @@
+<div class="job-list">
+{% for x in site.data.education %}
+  <div class="job">
+    <div class="job__logo"><img src="{{ base_path }}/images/logos/{{ x.logo }}" alt="" width="42" height="42" loading="lazy"></div>
+    <div class="job__text">
+      <div class="job__line"><a class="job__org" href="{{ x.url }}">{{ x.school }}</a><span class="job__dates">{{ x.dates }}</span></div>
+      <div class="job__role">{{ x.degree }}</div>
+      {% if x.note %}<div class="job__note">{{ x.note }}</div>{% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>

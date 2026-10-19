@@ -1,0 +1,18 @@
+- school: Virginia Tech
+  degree: Ph.D. in Computer Science
+  dates: Aug 2023-present
+  note: Advisor Dr. Liqing Zhang
+  logo: vt.png
+  url: https://cs.vt.edu
+- school: Virginia Tech
+  degree: M.S. in Computer Science
+  dates: Aug 2023-Apr 2025
+  note: GPA 4.00/4.00
+  logo: vt.png
+  url: https://cs.vt.edu
+- school: Bangladesh University of Engineering and Technology (BUET)
+  degree: B.Sc. in Computer Science and Engineering
+  dates: Feb 2017-May 2022
+  note: GPA 3.84/4.00
+  logo: buet.png
+  url: https://www.buet.ac.bd
