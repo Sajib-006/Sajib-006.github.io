@@ -1,10 +1,13 @@
 <div class="xp">
 {% for x in site.data.experience %}
   <div class="xp__item">
-    <div class="xp__dates">{{ x.dates }}</div>
-    <div class="xp__body">
-      <div class="xp__head"><span class="xp__org">{{ x.org }}</span><span class="xp__tag xp__tag--{{ x.type | downcase }}">{{ x.type }}</span></div>
+    <div class="xp__logo"><img src="{{ base_path }}/images/logos/{{ x.logo }}" alt="{{ x.org }} logo" width="48" height="48" loading="lazy"></div>
+    <div class="xp__main">
       <div class="xp__role">{{ x.role }}</div>
+      <div class="xp__dates">{{ x.dates }}</div>
+    </div>
+    <div class="xp__detail">
+      <a class="xp__org" href="{{ x.url }}">{{ x.org }}</a>
       <div class="xp__note">{{ x.note }}</div>
     </div>
   </div>
