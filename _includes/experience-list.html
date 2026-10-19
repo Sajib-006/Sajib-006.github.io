@@ -1,11 +1,11 @@
-<div class="xp">
+<div class="job-list">
 {% for x in site.data.experience %}
-  <div class="xp__item">
-    <div class="xp__logo"><img src="{{ base_path }}/images/logos/{{ x.logo }}" alt="{{ x.org }} logo" width="44" height="44" loading="lazy"></div>
-    <div class="xp__body">
-      <div class="xp__top"><span class="xp__role">{{ x.role }}</span><span class="xp__dates">{{ x.dates }}</span></div>
-      <a class="xp__org" href="{{ x.url }}">{{ x.org }}</a>
-      <div class="xp__note">{{ x.note }}</div>
+  <div class="job">
+    <div class="job__logo"><img src="{{ base_path }}/images/logos/{{ x.logo }}" alt="" width="42" height="42" loading="lazy"></div>
+    <div class="job__text">
+      <div class="job__line"><a class="job__org" href="{{ x.url }}">{{ x.org }}</a><span class="job__dates">{{ x.dates }}</span></div>
+      <div class="job__role">{{ x.role }}</div>
+      <div class="job__note">{{ x.note }}</div>
     </div>
   </div>
 {% endfor %}

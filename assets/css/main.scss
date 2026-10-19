@@ -94,16 +94,17 @@
 .pub__copy { position: absolute; top: 0.4rem; right: 0.4rem; font-size: 0.7em; padding: 0.1rem 0.5rem; border: 1px solid rgba(128,128,128,0.55); border-radius: 4px; background: transparent; color: inherit; cursor: pointer; }
 
 /* Experience list */
-.xp { margin: 1rem 0 2rem; }
-.xp__item { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 1.1rem; align-items: start; padding: 0.95rem 0; border-bottom: 1px solid rgba(128,128,128,0.25); }
-.xp__item:last-child { border-bottom: 0; }
-.xp__logo { width: 52px; height: 52px; border-radius: 10px; background: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 4px rgba(0,0,0,0.25); overflow: hidden; }
-.xp__logo img { width: 42px; height: 42px; object-fit: contain; }
-.xp__top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
-.xp__role { font-weight: 700; }
-.xp__dates { font-size: 0.85em; opacity: 0.75; white-space: nowrap; }
-.xp__org { font-size: 0.92em; font-weight: 600; }
-.xp__note { font-size: 0.88em; opacity: 0.85; margin-top: 0.15rem; line-height: 1.45; }
+.job-list { margin: 1rem 0 2rem; }
+.job { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 1.1rem; align-items: start; padding: 1rem 0; border-bottom: 1px solid rgba(128,128,128,0.25); }
+.job:last-child { border-bottom: 0; }
+.job__logo { width: 52px; height: 52px; border-radius: 10px; background: #fff; border: 1px solid rgba(128,128,128,0.3); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.job__logo img { width: 42px; height: 42px; object-fit: contain; }
+.job__line { display: flex; justify-content: space-between; align-items: baseline; gap: 1.5rem; flex-wrap: wrap; }
+.job__org { font-size: 1.05em; font-weight: 700; text-decoration: none !important; }
+.job__org:hover { text-decoration: underline !important; }
+.job__dates { font-size: 0.85em; opacity: 0.75; white-space: nowrap; }
+.job__role { font-size: 0.92em; font-weight: 600; margin-top: 0.1rem; }
+.job__note { font-size: 0.88em; opacity: 0.85; margin-top: 0.2rem; line-height: 1.45; }
 
 /* Membership list */
 .mem { margin: 1rem 0 2rem; border-top: 1px solid rgba(128,128,128,0.3); }
