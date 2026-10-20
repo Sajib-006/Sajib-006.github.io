@@ -26,6 +26,10 @@ redirect_from:
 
 <div markdown="0">{% include education-list.html %}</div>
 
+## Work Experience
+
+<div markdown="0">{% include experience-list.html %}</div>
+
 ## Publications
 
 <div markdown="0">
@@ -33,10 +37,6 @@ redirect_from:
 {% include pub-list.html %}
 {% include pub-script.html %}
 </div>
-
-## Work Experience
-
-<div markdown="0">{% include experience-list.html %}</div>
 
 ## Professional Memberships
 
