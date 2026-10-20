@@ -1,8 +1,8 @@
 <div class="mem">
 {% for m in site.data.memberships %}
   <div class="mem__row">
-    <span class="mem__logo"><img src="{{ base_path }}/images/logos/{{ m.logo }}" alt="{{ m.short }} logo" width="42" height="42" loading="lazy"></span>
-    <span class="mem__name">{{ m.name }}<span class="mem__role">{{ m.role }}</span></span>
+    <span class="mem__logo"><img src="{{ base_path }}/images/logos/{{ m.logo }}" alt="{{ m.short }} logo" loading="lazy"></span>
+    <span class="mem__name">{{ m.name }} ({{ m.short }})<span class="mem__role">{{ m.role }}</span></span>
     <span class="mem__since">{% if m.since != "" %}{{ m.since }}-present{% else %}Present{% endif %}</span>
   </div>
 {% endfor %}

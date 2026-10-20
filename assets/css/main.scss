@@ -108,10 +108,9 @@
 
 /* Membership list */
 .mem { margin: 1rem 0 2rem; border-top: 1px solid rgba(128,128,128,0.3); }
-.mem__row { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 1rem; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid rgba(128,128,128,0.3); }
-.mem__logo { width: 52px; height: 52px; border-radius: 10px; background: #fff; border: 1px solid rgba(128,128,128,0.3); display: flex; align-items: center; justify-content: center; overflow: hidden; }
-.mem__logo img { width: 42px; height: 42px; object-fit: contain; }
-.mem__short { justify-self: start; font-size: 0.75em; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 4px; background: rgba(37,99,235,0.15); border: 1px solid rgba(37,99,235,0.45); }
+.mem__row { display: grid; grid-template-columns: 84px minmax(0, 1fr) auto; gap: 1.1rem; align-items: center; padding: 0.8rem 0; border-bottom: 1px solid rgba(128,128,128,0.3); }
+.mem__logo { width: 84px; height: 52px; border-radius: 8px; background: #fff; border: 1px solid rgba(128,128,128,0.3); display: flex; align-items: center; justify-content: center; padding: 6px; box-sizing: border-box; }
+.mem__logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
 .mem__name { font-weight: 600; font-size: 0.95em; }
 .mem__role { display: block; font-weight: 400; font-size: 0.8em; opacity: 0.7; margin-top: 0.1rem; }
 .mem__since { font-size: 0.8em; opacity: 0.75; white-space: nowrap; }
