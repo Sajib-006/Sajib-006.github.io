@@ -131,8 +131,9 @@
 .news__tag { justify-self: start; font-size: 0.78em; font-weight: 600; padding: 0.05rem 0.5rem; border-radius: 999px; border: 1px solid rgba(128,128,128,0.5); opacity: 0.85; }
 .news__more > summary { cursor: pointer; padding: 0.5rem 0; font-weight: 600; opacity: 0.8; }
 @media (max-width: 600px) {
-  .news__item { grid-template-columns: 6rem minmax(0, 1fr); }
-  .news__text { grid-column: 1 / -1; }
+  .news { font-size: 0.85em; }
+  .news__item { display: flex; flex-wrap: wrap; align-items: center; gap: 0.15rem 0.6rem; padding: 0.55rem 0; }
+  .news__text { flex: 1 0 100%; }
 }
 
 /* Compact sidebar so every profile link fits on a laptop screen */
