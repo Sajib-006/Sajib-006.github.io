@@ -133,3 +133,15 @@
   .news__item { grid-template-columns: 6rem minmax(0, 1fr); }
   .news__text { grid-column: 1 / -1; }
 }
+
+/* Compact sidebar so every profile link fits on a laptop screen */
+@media screen and (min-width: 925px) {
+  .sidebar { padding-bottom: 2rem; }
+  .sidebar .author__avatar img { max-width: 120px; padding: 3px; }
+  .sidebar .author__name { margin-top: 6px; margin-bottom: 4px; }
+  .sidebar .author__pronouns { margin-top: 2px; margin-bottom: 4px; }
+  .sidebar .author__bio { margin-top: 4px; margin-bottom: 10px; font-size: 0.78em; line-height: 1.4; }
+  .sidebar .author__urls li { margin: 0; }
+  .sidebar .author__urls li a { display: block; padding: 0.12rem 0; font-size: 0.82em; }
+  .sidebar .author__urls.social-icons { margin: 0; }
+}
