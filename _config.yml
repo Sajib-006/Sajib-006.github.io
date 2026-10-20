@@ -25,7 +25,7 @@ author:
   avatar    : "profile.png"   # upload your photo as /images/profile.png OR change filename
   name      : "Sajib Acharjee Dip"
   pronouns  : "He/him"
-  bio       : "CS Ph.D. student at Virginia Tech. Building reliable LLMs, AI agents, and multimodal models for biology, medicine, and science."
+  bio       : "CS Ph.D. student at Virginia Tech. Working on LLM reasoning, post-training, AI agents, and multimodal learning, with applications in science and medicine."
   location  : "Blacksburg, VA, USA"
   employer  : "Virginia Tech"
   uri       : 
