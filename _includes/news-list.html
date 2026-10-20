@@ -1,0 +1,11 @@
+<div class="news">
+{% for n in site.data.news %}
+  {% if forloop.index == 9 %}<details class="news__more"><summary>Show older news</summary>{% endif %}
+  <div class="news__item">
+    <span class="news__date">{{ n.date }}</span>
+    <span class="news__tag">{{ n.tag }}</span>
+    <span class="news__text">{{ n.text }}</span>
+  </div>
+{% endfor %}
+{% if site.data.news.size > 8 %}</details>{% endif %}
+</div>

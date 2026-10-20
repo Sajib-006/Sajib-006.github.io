@@ -122,3 +122,14 @@
 /* Research interest tags */
 .tags { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0.9rem 0 0.5rem; }
 .tags span { font-size: 0.78em; font-weight: 600; padding: 0.2rem 0.7rem; border-radius: 999px; background: rgba(37,99,235,0.12); border: 1px solid rgba(37,99,235,0.4); }
+
+/* News */
+.news { font-size: 0.82em; line-height: 1.45; margin: 0.8rem 0 2rem; }
+.news__item { display: grid; grid-template-columns: 6.5rem 4.2rem minmax(0, 1fr); gap: 0.7rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px solid rgba(128,128,128,0.18); }
+.news__date { font-weight: 700; white-space: nowrap; }
+.news__tag { justify-self: start; font-size: 0.78em; font-weight: 600; padding: 0.05rem 0.5rem; border-radius: 999px; border: 1px solid rgba(128,128,128,0.5); opacity: 0.85; }
+.news__more > summary { cursor: pointer; padding: 0.5rem 0; font-weight: 600; opacity: 0.8; }
+@media (max-width: 600px) {
+  .news__item { grid-template-columns: 6rem minmax(0, 1fr); }
+  .news__text { grid-column: 1 / -1; }
+}

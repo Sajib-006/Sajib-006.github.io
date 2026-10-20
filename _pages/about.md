@@ -20,14 +20,7 @@ redirect_from:
 
 ## Recent news
 
-<div class="news-list">
-  <div><strong>Jul 2026</strong><span><a href="https://doi.org/10.18653/v1/2026.acl-long.1942">LLM4Cell</a> was published at ACL 2026.</span></div>
-  <div><strong>Jun 2026</strong><span><a href="https://doi.org/10.1093/nargab/lqag087">CFM-GP</a> was published in <em>NAR Genomics and Bioinformatics</em>.</span></div>
-  <div><strong>Jun 2026</strong><span>Two papers on <a href="https://doi.org/10.1145/3807503.3820870">computational pathology</a> and <a href="https://doi.org/10.1145/3807503.3820871">gene perturbation modeling</a> were published at ACM BCB 2026.</span></div>
-  <div><strong>May 2026</strong><span>Our community perspective on <a href="https://doi.org/10.1093/jxb/erag218">cross-species plant single-cell analysis</a> was published in <em>Journal of Experimental Botany</em>.</span></div>
-  <div><strong>May-Aug 2026</strong><span>AI Research Intern at Genentech, building reliable multi-agent LLM systems for biotech research workflows.</span></div>
-  <div><strong>Mar 2026</strong><span>Our review of <a href="https://doi.org/10.1093/bib/bbag110">LLM agents for biological intelligence</a> was published in <em>Briefings in Bioinformatics</em>.</span></div>
-</div>
+<div markdown="0">{% include news-list.html %}</div>
 
 ## Education
 
