@@ -1,16 +1,20 @@
 - short: ACL
+  logo: acl.png
   name: Association for Computational Linguistics
   role: Student Member
   since: ""
 - short: ACM
+  logo: acm.png
   name: Association for Computing Machinery
   role: Student Member
   since: Mar 2026
 - short: IEEE
+  logo: ieee.png
   name: Institute of Electrical and Electronics Engineers
   role: Student Member
   since: Apr 2026
 - short: EMBS
+  logo: embs.png
   name: IEEE Engineering in Medicine and Biology Society
   role: Student Member
   since: May 2026
