@@ -37,7 +37,8 @@ author:
   arxiv         :
   pubmed        :
   researchgate  : "https://www.researchgate.net/profile/Sajib-Acharjee-Dip-2"
-  semantic      :
+  semantic      : "https://www.semanticscholar.org/author/2293313831"
+  loop          : "https://loop.frontiersin.org/people/3195495/bio"
 
   # Repositories and software development
   github        : "Sajib-006"
