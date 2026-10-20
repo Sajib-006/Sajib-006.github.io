@@ -3,40 +3,40 @@
   text: 'Presented an agent harness poster at the <a href="https://rdi.berkeley.edu/events/agentic-ai-summit-2026">Agentic AI Summit</a>, UC Berkeley.'
 - date: Jul 2026
   tag: Talk
-  text: '<a href="https://doi.org/10.18653/v1/2026.acl-long.1942">LLM4Cell</a> was published and presented at <a href="https://2026.aclweb.org">ACL 2026</a> in San Diego. I was also selected as a volunteer at the conference.'
+  text: 'Presented <a href="https://doi.org/10.18653/v1/2026.acl-long.1942">LLM4Cell</a> at <a href="https://2026.aclweb.org">ACL 2026</a>, San Diego. Selected as a volunteer.'
 - date: Jun 2026
   tag: Paper
-  text: '<a href="https://doi.org/10.1093/nargab/lqag087">CFM-GP</a> was published in <em>NAR Genomics and Bioinformatics</em>.'
+  text: '<a href="https://doi.org/10.1093/nargab/lqag087">CFM-GP</a> published in <em>NAR Genomics and Bioinformatics</em>.'
 - date: Jun 2026
   tag: Paper
-  text: 'Two papers on <a href="https://doi.org/10.1145/3807503.3820870">computational pathology</a> and <a href="https://doi.org/10.1145/3807503.3820871">gene perturbation modeling</a> were published at ACM BCB 2026.'
+  text: 'Two papers published at ACM BCB 2026: <a href="https://doi.org/10.1145/3807503.3820870">pathology</a> and <a href="https://doi.org/10.1145/3807503.3820871">gene perturbation</a>.'
 - date: May 2026
   tag: Paper
-  text: 'Our perspective on <a href="https://doi.org/10.1093/jxb/erag218">cross-species plant single-cell analysis</a> was published in <em>Journal of Experimental Botany</em>.'
-- date: May-Aug 2026
+  text: '<a href="https://doi.org/10.1093/jxb/erag218">Plant single-cell perspective</a> published in <em>J. Experimental Botany</em>.'
+- date: May 2026
   tag: Role
-  text: 'AI Research Intern at Genentech, building reliable multi-agent LLM systems for biotech research workflows.'
+  text: 'Started as AI Research Intern at Genentech.'
 - date: Mar 2026
   tag: Paper
-  text: 'Our review of <a href="https://doi.org/10.1093/bib/bbag110">LLM agents for biological intelligence</a> was published in <em>Briefings in Bioinformatics</em>.'
+  text: '<a href="https://doi.org/10.1093/bib/bbag110">LLM agents review</a> published in <em>Briefings in Bioinformatics</em>.'
 - date: Feb 2026
   tag: Talk
-  text: 'Co-authored a paper on gastrointestinal disease detection with vision transformer features at <a href="https://iccabs.engr.uconn.edu">ICCABS 2026</a>, NC State, Raleigh. Received a travel award.'
+  text: 'Co-authored a gastrointestinal disease detection paper at <a href="https://iccabs.engr.uconn.edu">ICCABS 2026</a>, NC State. $500 travel award.'
 - date: Dec 2025
   tag: Talk
-  text: 'Presented <a href="https://neurips.cc/virtual/2025/loc/san-diego/126572">ProtFunAgent</a> and <a href="https://arxiv.org/abs/2506.06980">MoXGATE</a> at NeurIPS 2025 workshops, San Diego.'
+  text: 'Presented <a href="https://neurips.cc/virtual/2025/loc/san-diego/126572">ProtFunAgent</a> and <a href="https://arxiv.org/abs/2506.06980">MoXGATE</a> at NeurIPS 2025, San Diego.'
 - date: Nov 2025
   tag: Talk
-  text: 'Presented MoXGATE at the Commonwealth of Virginia Cancer Research Conference (CVCRC), Richmond. Received a travel award.'
+  text: 'Presented MoXGATE at CVCRC, Richmond. $300 travel award.'
 - date: Summer 2025
   tag: Service
-  text: 'Moderated the <a href="https://lilabatvt.github.io/PlantSingleCell/">Plant Single Cell Analysis Workshop</a> at Virginia Tech.'
+  text: 'Moderated the <a href="https://lilabatvt.github.io/PlantSingleCell/">Plant Single Cell Analysis Workshop</a>, Virginia Tech.'
 - date: May 2025
   tag: Role
-  text: 'Joined Labcorp as a Summer Research Intern.'
+  text: 'Joined Labcorp as Summer Research Intern.'
 - date: Apr 2025
   tag: Talk
-  text: 'Presented DeepAge and PathoLM at the Commonwealth Cyber Initiative Symposium, Richmond. Received a travel award from GPSS.'
+  text: 'Presented DeepAge and PathoLM at the CCI Symposium, Richmond. $300 GPSS travel award.'
 - date: Mar 2025
   tag: Talk
-  text: 'Presented DeepAge at AAAI 2025, Philadelphia. Received a travel award.'
+  text: 'Presented DeepAge at AAAI 2025, Philadelphia. Travel award.'
